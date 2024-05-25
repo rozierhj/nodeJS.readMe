@@ -1,8 +1,8 @@
-# test project
+# Create README
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description 
-    a project to build a readme
+    Project to create an application that runs in nodjs and can create automatic readme files.
 
   ## Table of Contents
 
@@ -14,14 +14,14 @@
   - [Questions](#questions)  
 
   ## Installation
-    install the inquirer node from npm and the 'fs' module
+    use modules inguirer from npm and 'fs' as well as any other local mocules.
 
   ## Usage
 
   #### [link to the application webpage (if applicable)]()
-  #### [link to the git repository]()
+  #### [link to the git repository](https://github.com/rozierhj/nodeJS.readMe/tree/main)
 
-    use command node index and answer all prompts
+    enter the comman "node index.js" into the terminal. then answer the questions given to you by the application. The application will use your responses to build a readme document.
 
   ![]()
 
