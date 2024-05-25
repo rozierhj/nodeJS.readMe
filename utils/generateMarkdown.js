@@ -34,20 +34,74 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  //link inckuded in the renderLicenseBadge function
+  switch(license){
+    case 'Apache 2.0':
+      return `[Application is covered under the ${license} license](https://opensource.org/licenses/Apache-2.0)`;
+    
+    case 'Boost 1.0':
+      return `[Application is covered under the ${license} license](https://opensource.org/license/bsl-1-0)`;
+      
+    case 'BSD 3-Clause':
+      return `[Application is covered under the ${license} license](https://opensource.org/licenses/BSD-3-Clause)`;
+      
+    case 'MIT':
+      return `[Application is covered under the ${license} license](https://opensource.org/licenses/MIT)`;
+      
+    case 'MPL 2.0':
+      return `[Application is covered under the ${license} license](https://opensource.org/licenses/MPL-2.0)`;
+      
+    case 'ISC':
+      return `[Application is covered under the ${license} license](https://opensource.org/licenses/ISC)`;
+      
+    case 'IBM':
+      return `[Application is covered under the ${license} license](https://opensource.org/licenses/IPL-1.0)`;
+    
+    case 'GNU GPL v3':
+      return `[Application is covered under the ${license} license](https://www.gnu.org/licenses/gpl-3.0)`;
+
+      default:
+        return '';
+  }
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  return `
-  ${renderLicenseBadge(license)}
-  `;
+
+  switch(license){
+    case 'Apache 2.0':
+      return `Application is covered under the [${license} license](https://opensource.org/licenses/Apache-2.0)`;
+    
+    case 'Boost 1.0':
+      return `Application is covered under the [${license} license](https://opensource.org/license/bsl-1-0)`;
+      
+    case 'BSD 3-Clause':
+      return `Application is covered under the [${license} license](https://opensource.org/licenses/BSD-3-Clause)`;
+      
+    case 'MIT':
+      return `Application is covered under the [${license} license](https://opensource.org/licenses/MIT)`;
+      
+    case 'MPL 2.0':
+      return `Application is covered under the [${license} license](https://opensource.org/licenses/MPL-2.0)`;
+      
+    case 'ISC':
+      return `Application is covered under the [${license} license](https://opensource.org/licenses/ISC)`;
+      
+    case 'IBM':
+      return `Application is covered under the [${license} license](https://opensource.org/licenses/IPL-1.0)`;
+    
+    case 'GNU GPL v3':
+      return `Application is covered under the [${license} license](https://www.gnu.org/licenses/gpl-3.0)`;
+
+      default:
+        return '';
+  }
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  ${renderLicenseBadge(data.license)}
 
   ## Description 
     ${data.description}
@@ -71,8 +125,11 @@ function generateMarkdown(data) {
 
     ${data.usage}
 
+  ![${data.images}](${data.images})
+
   ## License
-    ${renderLicenseSection(data.license)}
+
+  ${renderLicenseSection(data.license)}
 
   ## Contributing
     ${data.credits}
@@ -81,8 +138,9 @@ function generateMarkdown(data) {
     ${data.test}
 
   ## Questions
-    Github user page: [https://github/${data.gitHubUser}](https://github/${data.gitHubUser})
-    For more information, you can email at: ${data.email}
+
+  #### Github user profile for: [${data.gitHubUser}](https://github.com/${data.gitHubUser})
+  #### For more information, you can email at: [${data.email}](${data.email})
   
 `;
 }
