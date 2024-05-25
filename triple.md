@@ -1,23 +1,22 @@
 # triple
 
   ## Description 
-    undefined
+    it was very tough
 
   ## Installation
-    undefined
+    just do the best you can
 
   ## Usage
 
-  ### [link to the webpage](undefined)
+  ### [link to the webpage](https://rozierhj.github.io/weather_api_page/)
 
-    undefined
+    you enter data and hope for the best
 
   ## Credits
-    undefined
-    
+    hunter rozier
+
   ## License
-  ## License for this repository:
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
   
   
   ---
