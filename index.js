@@ -36,6 +36,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'images',
+        message: 'Provide a link to an example image (include file name and extension)',
+    },
+    {
+        type: 'input',
         name: 'credits',
         message: 'Contributors: ',
     },
@@ -49,7 +54,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(`README.md`,data,(err)=>{
+    fs.writeFile(`${fileName}.md`,data,(err)=>{
         if(err){
             console.error('error in file generation!!!',err);
         }else{
@@ -63,7 +68,7 @@ function init() {
     inquirer.prompt(questions)
 .then(data =>{
     console.log(`the file name was ${data.title}`);
-    writeToFile(data.title,generateMarkdown(data));
+    writeToFile('README',generateMarkdown(data));
 })
 
 }
