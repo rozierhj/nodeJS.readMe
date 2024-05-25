@@ -23,8 +23,8 @@
     test
 
   ## License
-    ## License
-  [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+    
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
 
   ## Contributing
@@ -34,6 +34,6 @@
     test
 
   ## Questions
-    Github user page: [test me i think](https://github/rozierhj)
-    For more information, you can email at: 
+    Github user page: [https://github/rozierhj](https://github/rozierhj)
+    For more information, you can email at: hunter.rozier@yahoo.com
   
