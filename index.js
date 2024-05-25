@@ -26,6 +26,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'repOlink',
+        message: 'Paste link to repository: '
+    },
+    {
+        type: 'input',
         name: 'usage',
         message: 'Describe how application is used',
     },
