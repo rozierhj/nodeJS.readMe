@@ -70,8 +70,6 @@ function generateMarkdown(data) {
     ${data.credits}
 
   ${renderLicenseSection(data.license)}
-  
-  ---
 `;
 }
 

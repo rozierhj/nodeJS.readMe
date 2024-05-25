@@ -9,13 +9,13 @@
   ## Usage
 
   #### [link to the application webpage (if applicable)]()
-  #### [link to the git repository](https://github.com/rozierhj/nodeJS.readMe/tree/main)
+  #### [link to the git repository](https://github.com/rozierhj/nodeJS.readMe)
 
     The user enters the node index.js command and then the system will ask them questions related to the typical fields in a README file. This includes things like the description, usage, license etc. Once the user answers all of the questions a README file will be generated.
 
   ### Images
 
-  ![Example]()
+  ![Example](./assets/systemInputs.png)
 
   ## Credits
     Hunter Rozier
@@ -23,5 +23,3 @@
   ## License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
-  
-  ---
