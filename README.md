@@ -1,17 +1,17 @@
 # Create README
 
   ## Description 
-    The purpose of this project is to create an application in nodejs that can be used to create README files automatically based on user inputs
+    The purpose of this project was to create a javascript application in nodejs that would enable the user to auto-create readme files from prompts provided by the system.
 
   ## Installation
-    Be sure to include the 'fs' module and the inquirer module from NPM as well as any custom made modules found in the code
+    Include the modules 'fs' and inquirer from NPM as well as any local modules that may exist.
 
   ## Usage
 
-  ### [link to the application webpage]()
-  ### [link to the git repository](https://github.com/rozierhj/nodeJS.readMe)
+  #### [link to the application webpage (if applicable)]()
+  #### [link to the git repository](https://github.com/rozierhj/nodeJS.readMe/tree/main)
 
-    The user begins by entering node index.js in the terminal. Then they will be prompted to answer a series of questions that the program will use to create a README file. These questions will be your typical README informtaion including, license type, description, usage, links to populate etc.
+    The user enters the node index.js command and then the system will ask them questions related to the typical fields in a README file. This includes things like the description, usage, license etc. Once the user answers all of the questions a README file will be generated.
 
   ### Images
 
