@@ -57,8 +57,8 @@ function generateMarkdown(data) {
 
   ## Usage
 
-  ### [link to the application webpage](${data.link})
-  ### [link to the git repository](${data.repOlink})
+  #### [link to the application webpage (if applicable)](${data.link})
+  #### [link to the git repository](${data.repOlink})
 
     ${data.usage}
 

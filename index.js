@@ -22,7 +22,7 @@ const questions = [
     {
         type: 'input',
         name: 'link',
-        message: 'Paste link to website: ',
+        message: 'Paste link to website (if applicable): ',
     },
     {
         type: 'input',
@@ -75,4 +75,4 @@ function init() {
 
 // Function call to initialize app
 init();
-//writeToFile('chicken',generateMarkdown(testObject));
+
