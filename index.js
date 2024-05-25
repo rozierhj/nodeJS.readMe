@@ -7,7 +7,7 @@ const questions = [
     {
         type:'input',
         name: 'title',
-        message: 'what is file name: ',
+        message: 'What is project title: ',
     },
     {
         type:'input',
@@ -17,7 +17,7 @@ const questions = [
     {
         type: 'input',
         name: 'installation',
-        message: 'Provide installation instructions: ',
+        message: 'Installation instructions: ',
     },
     {
         type: 'input',
@@ -32,23 +32,38 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'Describe how application is used',
+        message: 'Usage information: ',
     },
     {
         type: 'input',
         name: 'images',
-        message: 'Provide a link to an example image (include file name and extension)',
+        message: 'Link to an example image (include file name and extension): ',
     },
     {
         type: 'input',
         name: 'credits',
-        message: 'Contributors: ',
+        message: 'Contribution quidelines: ',
+    },
+    {
+        type: 'input',
+        name: 'test',
+        message: 'Test instructions: ',
     },
     {
         type:'list',
         name: 'license',
-        message: 'what is file license',
+        message: 'Choose License: ',
         choices: ['Apache 2.0','Boost 1.0','BSD 3-Clause','MIT','MPL 2.0','ISC','IBM','GNU GPL v3','skip'],
+    },
+    {
+        type:'input',
+        name:'gitHubUser',
+        message: 'Enter Github user name: ',
+    },
+    {
+        type:'input',
+        name:'email',
+        message:'Enter your email',
     }
 ];
 

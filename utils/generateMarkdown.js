@@ -78,10 +78,11 @@ function generateMarkdown(data) {
     ${data.credits}
 
   ## Tests
-    ${data.tests}
+    ${data.test}
 
   ## Questions
-    ${data.email}
+    Github user page: https://github/${data.gitHubUser}
+    For more information, you can email at: ${data.email}
   
 `;
 }
